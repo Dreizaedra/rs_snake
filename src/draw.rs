@@ -24,7 +24,7 @@ pub fn draw_block(color: Color, x: i32, y: i32, ctx: &Context, g: &mut G2d) {
     );
 }
 
-pub fn draw_rectangle(color: Color, x: i32, y: i32, width: i32, height: i32, ctx: &Context, g: &mut G2d) {
+pub fn draw_rectangle(color: Color, x: i32, y: i32, width: u32, height: u32, ctx: &Context, g: &mut G2d) {
     let x = to_coord(x);
     let y = to_coord(y);
 
